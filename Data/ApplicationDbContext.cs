@@ -12,17 +12,25 @@ namespace FitnessDiets.Data
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-           
+
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            _ = builder.Entity<Food>().HasData(new Food { 
-            Id = new Guid("AA051370-D1FF-4C53-BC05-DB0C92710C69"),
+            _ = builder.Entity<Food>().HasData(new Food
+            {
+                Id = new Guid("6DA261FF-D98A-4132-A33E-509858C0CE31"),
                 FoodName = "Борщ",
                 Eatenfood = 400
-            });;
+            }); ;
         }
     }
 }
+
+
+
+
+
+    
+

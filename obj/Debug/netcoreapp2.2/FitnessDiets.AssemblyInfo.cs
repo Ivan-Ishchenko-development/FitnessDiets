@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-FitnessDiets-AA051370-D1FF-4C53-BC05-DB0C92710C69")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("FitnessDiets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
