@@ -21,7 +21,7 @@ namespace FitnessDiets.Data
              builder.Entity<Food>().HasData(new Food
             {
                 Id = new Guid("6DA261FF-D98A-4132-A33E-509858C0CE31"),
-                FoodName = "Пюре",
+                FoodName = "Борщ",
                 Eatenfood = 200
             }); ;
         }

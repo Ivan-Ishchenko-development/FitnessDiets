@@ -1,8 +1,24 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Home Page";
 }
 
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <a asp-controller="Foods" asp-action="FoodsEdit">Съеденное блюдо</a>
+</div>
+<div class="text-center">
+    @foreach (FitnessDiets.Data.Food entity in Model)
+    {
+        <div>
+            @entity.FoodName
+            |
+            <a asp-controller="Foods" asp-action="FoodsEdit" asp-route-id="@entity.Id">редактировать</a>
+            |
+            <form method="post" asp-controller="Foods" asp-action="FoodsDelete">
+                <input type="hidden" name="Id" value="@entity.Id" />
+                <input type="submit" value="удалить" />
+            </form>
+        </div>
+    }
 </div>

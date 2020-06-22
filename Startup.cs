@@ -20,10 +20,13 @@ namespace FitnessDiets
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {/*Рефакторинг, подключение указано в appsettings.json
+        {
+            services.AddTransient<FoodsRepository>();
+            
+
+            /*Рефакторинг, подключение указано в appsettings.json
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
-       "Data Source=(local); Database=Foods; Persist Security Info=False; MultipleActiveResultSets=True; Trusted_Connection=True;"
-       ));
+       "Data Source=(local); Database=Foods; Persist Security Info=False; MultipleActiveResultSets=True; Trusted_Connection=True;"));
          */
 
             services.AddDbContext<ApplicationDbContext>(options =>

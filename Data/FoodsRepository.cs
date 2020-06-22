@@ -15,7 +15,7 @@ namespace FitnessDiets.Data
             this.context = context;
         }
 
-        //выбрать все записи из таблицы Articles
+        //выбрать все записи из таблицы Foods
         public IQueryable<Food> GetFoods()
         {
             return context.Foods.OrderBy(x => x.FoodName);
