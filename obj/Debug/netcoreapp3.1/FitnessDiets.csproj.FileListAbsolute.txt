@@ -82,3 +82,6 @@ D:\GitHub\FitnessDiets\FitnessDiets\obj\Debug\netcoreapp3.1\staticwebassets\Fitn
 D:\GitHub\FitnessDiets\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.dll
 D:\GitHub\FitnessDiets\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.pdb
 D:\GitHub\FitnessDiets\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.genruntimeconfig.cache
+D:\GitHub\FitnessDiets\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+D:\GitHub\FitnessDiets\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
+D:\GitHub\FitnessDiets\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs

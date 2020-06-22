@@ -18,11 +18,11 @@ namespace FitnessDiets.Data
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            _ = builder.Entity<Food>().HasData(new Food
+             builder.Entity<Food>().HasData(new Food
             {
                 Id = new Guid("6DA261FF-D98A-4132-A33E-509858C0CE31"),
-                FoodName = "Борщ",
-                Eatenfood = 400
+                FoodName = "Пюре",
+                Eatenfood = 200
             }); ;
         }
     }
