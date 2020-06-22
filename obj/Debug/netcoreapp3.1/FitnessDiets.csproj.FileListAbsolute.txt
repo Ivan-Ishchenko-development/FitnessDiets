@@ -157,3 +157,4 @@ D:\GitHub\FitnessDiets\FitnessDiets\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Co
 D:\GitHub\FitnessDiets\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.csproj.CoreCompileInputs.cache
 D:\GitHub\FitnessDiets\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.MvcApplicationPartsAssemblyInfo.cs
 D:\GitHub\FitnessDiets\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\FitnessDiets\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Home\FoodEdit.cshtml.g.cs

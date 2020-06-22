@@ -1,24 +1,22 @@
-﻿
-@{
-    Layout = null;
-}
+﻿@model FitnessDiets.Data.Food
+
 
 <div>
     <h1>Редактировать</h1>
     <div>
-        <form asp-controller="Foods" asp-action="FoodEdit" method="post">
+        <form asp-controller="Foods" asp-action="FoodsEdit" method="post">
             <input type="hidden" asp-for="Id" />
             <div asp-validation-summary="All"></div>
 
             <div>
-                <label asp-for="Title"></label>
-                <input asp-for="Title" />
-                <span asp-validation-for="Title"></span>
+                <label asp-for="FoodName"></label>
+                <input asp-for="FoodName" />
+                <span asp-validation-for="FoodName"></span>
             </div>
             <div>
-                <label asp-for="Text"></label>
-                <textarea asp-for="Text"></textarea>
-                <span asp-validation-for="Text"></span>
+                <label asp-for="Eatenfood"></label>
+                <textarea asp-for="Eatenfood"></textarea>
+                <span asp-validation-for="Eatenfood"></span>
             </div>
             <input type="submit" value="Сохранить" />
         </form>

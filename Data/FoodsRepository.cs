@@ -18,6 +18,7 @@ namespace FitnessDiets.Data
         //выбрать все записи из таблицы Foods
         public IQueryable<Food> GetFoods()
         {
+
             return context.Foods.OrderBy(x => x.FoodName);
         }
 
