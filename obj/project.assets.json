@@ -8599,19 +8599,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vlad\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\FitnessDiets\\FitnessDiets\\FitnessDiets.csproj",
+      "projectUniqueName": "D:\\Учеба\\3курс 2семестр\\СМТРПЗ\\FitnessDiets\\FitnessDiets.csproj",
       "projectName": "FitnessDiets",
-      "projectPath": "D:\\GitHub\\FitnessDiets\\FitnessDiets\\FitnessDiets.csproj",
-      "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\FitnessDiets\\FitnessDiets\\obj\\",
+      "projectPath": "D:\\Учеба\\3курс 2семестр\\СМТРПЗ\\FitnessDiets\\FitnessDiets.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Учеба\\3курс 2семестр\\СМТРПЗ\\FitnessDiets\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8619,6 +8619,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\Work\\Whysper_twoFork_+pac\\Whysper_pac": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
