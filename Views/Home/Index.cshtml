@@ -5,7 +5,7 @@
 
 
 <div class="text-center">
-    <a asp-controller="Foods" asp-action="FoodsEdit">Съеденное блюдо</a>
+    <a asp-controller="Home" asp-action="FoodEdit">Съеденное блюдо</a>
 </div>
 <div class="text-center">
     @foreach (FitnessDiets.Data.Food entity in Model)
@@ -13,7 +13,7 @@
         <div>
             @entity.FoodName
             |
-            <a asp-controller="Foods" asp-action="FoodsEdit" asp-route-id="@entity.Id">редактировать</a>
+            <a asp-controller="Home" asp-action="FoodEdit" asp-route-id="@entity.Id">редактировать</a>
             |
             <form method="post" asp-controller="Foods" asp-action="FoodsDelete">
                 <input type="hidden" name="Id" value="@entity.Id" />
