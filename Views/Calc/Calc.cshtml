@@ -9,8 +9,8 @@
         <p class="formula">На базе формулы Миффлина — Сан Жеора.</p>
         <div class="wrapper-user">
             <div class="block-user">
-                 <img src="~/images/" alt="user" />
-                 <span value=""></span>
+                <img src="~/images/" alt="user" />
+                <span value=""></span>
             </div>
             <div class="block-user">
                 <img src="~/images/" alt="watch" />
@@ -53,7 +53,7 @@
             <button type="submit" class="btn btn-result" name="result">Рассчитать</button>
         </form>
         <div class="slimming">
-            
+
 
             <p>Для похудения в безопасном режиме уменьшите норму потребления</p>
             <span>до @ViewBag.Kilocalorie[0] ккал. Через неделю вы похудеете на @ViewBag.WeightWeek[0] кг, а через месяц на @ViewBag.WeightMonth[0] кг </span>
@@ -68,7 +68,7 @@
 </section>
 
 <script>
-    
+
     document.getElementById("activity").onchange = function () {
         const n = document.getElementById('activity').value;
         document.getElementById('activity').setAttribute("value", n);

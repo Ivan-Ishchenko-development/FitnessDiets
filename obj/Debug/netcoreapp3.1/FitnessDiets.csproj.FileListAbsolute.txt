@@ -316,5 +316,6 @@ D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netc
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.dll
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.pdb
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.genruntimeconfig.cache
-D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Home\Calc.cshtml.g.cs
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.csprojAssemblyReference.cache
+D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\InfoDiet\InfoDiet.cshtml.g.cs
+D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Calc\Calc.cshtml.g.cs
