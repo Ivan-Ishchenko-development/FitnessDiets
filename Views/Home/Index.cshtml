@@ -4,18 +4,17 @@
 }
 
 
-<div class="text-center">
-    <a asp-controller="Home" asp-action="FoodEdit">Съеденное блюдо</a>
+<div class="text-center title title-food">
+    <a asp-controller="Home" asp-action="FoodEdit">Съеденные блюда</a>
 </div>
 <div class="text-center">
     @foreach (FitnessDiets.Data.Food entity in Model)
     {
-        <div>
+        <div class="block-food">
             @entity.FoodName
-            |
             <a asp-controller="Home" asp-action="FoodEdit" asp-route-id="@entity.Id">редактировать</a>
-            |
-            <form method="post" asp-controller="Foods" asp-action="FoodsDelete">
+
+            <form method="post" asp-controller="Home" asp-action="FoodsDelete">
                 <input type="hidden" name="Id" value="@entity.Id" />
                 <input type="submit" value="удалить" />
             </form>

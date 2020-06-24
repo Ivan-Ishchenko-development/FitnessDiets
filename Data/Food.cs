@@ -8,7 +8,6 @@ namespace FitnessDiets.Data
 {
     public class Food
     {
-
         [Required]
         public Guid Id { get; set; }
 

@@ -1,0 +1,77 @@
+﻿@model FitnessDiets.Models.Calc
+@{
+    ViewBag.Title = "Calc";
+}
+
+<section>
+    <div>
+        <h1 class="title">Расчета калорий для похудения</h1>
+        <p class="formula">На базе формулы Миффлина — Сан Жеора.</p>
+        <div class="wrapper-user">
+            <div class="block-user">
+                 <img src="~/images/" alt="user" />
+                 <span value=""></span>
+            </div>
+            <div class="block-user">
+                <img src="~/images/" alt="watch" />
+                <span class="user-date" value=""></span>
+            </div>
+        </div>
+    </div>
+    <div class="calc">
+        <form method="post" asp-controller="Home" asp-action="Calc">
+            <div class="calc-header">
+                <div class="img-logo">
+                    <img src="~/images/" alt="logo" />
+                </div>
+                <div class="title calc-title">Расчета калорий для похудения</div>
+            </div>
+            <div class="calc-input">
+                <input class="input-value" type="text" name="height" value="" />
+                <input class="input-value" type="text" name="weight" value="" />
+                <input class="input-value" type="text" name="age" value="" />
+            </div>
+            <div class="calc-checkbox">
+                <div class="calc-sex">
+                    <input type="radio" name="sex" onchange="reactSex()" id="sex1" value="man" />
+                    <label for="sex1">Мужчина</label>
+                    <input type="radio" name="sex" onchange="reactSex()" id="sex2" value="woman" />
+                    <label for="sex2">Женщина</label>
+                </div>
+                <div class="calc-activity">
+                    <select id="activity" onchange="reactActivity()" value="1.2" name="activity">
+                        <option value="1.2" selected>Нет физической нагрузки</option>
+                        <option value="1.375">Спорт 3 раза в неделю</option>
+                        <option value="1.4625">Спорт 5 раз в неделю</option>
+                        <option value="1.55">Интенсивные тренировки 5 раз в неделю</option>
+                        <option value="1.6375">Ежедневные занятия спортом</option>
+                        <option value="1.725">Интенсивные занятия спортом дважды в день</option>
+                        <option value="1.9">Физический труд одновременно с ежедневными занятиями спортом</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-result" name="result">Рассчитать</button>
+        </form>
+        <div class="slimming">
+            
+
+            <p>Для похудения в безопасном режиме уменьшите норму потребления</p>
+            <span>до @ViewBag.Kilocalorie[0] ккал. Через неделю вы похудеете на @ViewBag.WeightWeek[0] кг, а через месяц на @ViewBag.WeightMonth[0] кг </span>
+
+            <p>Для похудения в безопасном режиме уменьшите норму потребления</p>
+            <span>до @ViewBag.Kilocalorie[1] ккал. Через неделю вы похудеете на @ViewBag.WeightWeek[1] кг, а через месяц на @ViewBag.WeightMonth[1] кг </span>
+
+            <p>Для похудения в безопасном режиме уменьшите норму потребления</p>
+            <span>до @ViewBag.Kilocalorie[2] ккал. Через неделю вы похудеете на @ViewBag.WeightWeek[2] кг, а через месяц на @ViewBag.WeightMonth[2] кг </span>
+        </div>
+    </div>
+</section>
+
+<script>
+    
+    document.getElementById("activity").onchange = function () {
+        const n = document.getElementById('activity').value;
+        document.getElementById('activity').setAttribute("value", n);
+    };
+
+</script>

@@ -4,18 +4,18 @@
 <div>
     <h1>Редактировать</h1>
     <div>
-        <form asp-controller="Foods" asp-action="FoodsEdit" method="post">
+        <form asp-controller="Home" asp-action="FoodsEdit" method="post">
             <input type="hidden" asp-for="Id" />
             <div asp-validation-summary="All"></div>
 
             <div>
                 <label asp-for="FoodName"></label>
-                <input asp-for="FoodName" />
+                <input type="text" asp-for="FoodName" />
                 <span asp-validation-for="FoodName"></span>
             </div>
             <div>
                 <label asp-for="Eatenfood"></label>
-                <textarea asp-for="Eatenfood"></textarea>
+                <input type="text" asp-for="Eatenfood"/>
                 <span asp-validation-for="Eatenfood"></span>
             </div>
             <input type="submit" value="Сохранить" />

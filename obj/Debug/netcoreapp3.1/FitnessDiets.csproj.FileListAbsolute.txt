@@ -285,7 +285,6 @@ D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\bin\Debug\netc
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.csprojAssemblyReference.cache
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.csproj.CoreCompileInputs.cache
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.MvcApplicationPartsAssemblyInfo.cs
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.MvcApplicationPartsAssemblyInfo.cache
@@ -301,7 +300,6 @@ D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netc
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Home\FoodEdit.cshtml.g.cs
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -318,3 +316,5 @@ D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netc
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.dll
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.pdb
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.genruntimeconfig.cache
+D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Home\Calc.cshtml.g.cs
+D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.csprojAssemblyReference.cache
