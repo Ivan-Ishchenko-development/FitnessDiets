@@ -5,16 +5,19 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Diagnostics;
 using System.Collections.Generic;
+using FitnessDiets.Repository;
 
 namespace FitnessDiets.Controllers
 {
     public class HomeController : Controller
     {
         private readonly FoodsRepository foodsRepository;
+        private readonly ListFoodRepository listFoodRepository;
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(FoodsRepository foodsRepository, ILogger<HomeController> logger) 
+        public HomeController(ListFoodRepository listFoodRepository, FoodsRepository foodsRepository, ILogger<HomeController> logger) 
         {
+            this.listFoodRepository = listFoodRepository;
             this.foodsRepository = foodsRepository;
             _logger = logger;
         }
@@ -36,6 +39,7 @@ namespace FitnessDiets.Controllers
         [HttpPost] //в POST-версии метода сохраняем/обновляем запись в БД
         public IActionResult FoodsEdit(Food model)
         {
+            model.Calories = GetCalories(model.Eatenfood, model.Calories);
             if (ModelState.IsValid)
             {
                 foodsRepository.SaveFood(model);
@@ -57,6 +61,20 @@ namespace FitnessDiets.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public int GetCalories(int countFood, int calories)
+        {
+            int caloriesResult;
+            if (calories == 0)
+            {
+                Random rnd = new Random();
+                caloriesResult = rnd.Next(1, 15) * 10 * countFood;
+            }
+            else
+                caloriesResult = calories;
+            
+            return caloriesResult;
         }
     }
 }

@@ -296,8 +296,6 @@ D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netc
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.TagHelpers.output.cache
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.RazorCoreGenerate.cache
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
-D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Home\FoodEdit.cshtml.g.cs
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
@@ -316,6 +314,6 @@ D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netc
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.dll
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.pdb
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.genruntimeconfig.cache
-D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.csprojAssemblyReference.cache
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\InfoDiet\InfoDiet.cshtml.g.cs
 D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\Razor\Views\Calc\Calc.cshtml.g.cs
+D:\Учеба\3курс 2семестр\СМТРПЗ\FitnessDiets\obj\Debug\netcoreapp3.1\FitnessDiets.csprojAssemblyReference.cache

@@ -11,7 +11,7 @@ namespace FitnessDiets.Controllers
     {
         public IActionResult Calc()
         {
-            ViewBag.Kilocalorie = new List<double> { 1, 0, 0 };
+            ViewBag.Kilocalorie = new List<double> { 0, 0, 0 };
             ViewBag.WeightWeek = new List<double> { 0, 0, 0 };
             ViewBag.WeightMonth = new List<double> { 0, 0, 0 };
             return View();

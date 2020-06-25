@@ -1,23 +1,43 @@
-﻿@model IQueryable<FitnessDiets.Data.Food>
+﻿@model IQueryable<FitnessDiets.Models.Food>
 @{
     ViewData["Title"] = "Home Page";
 }
 
-
-<div class="text-center title title-food">
-    <a asp-controller="Home" asp-action="FoodEdit">Съеденные блюда</a>
-</div>
-<div class="text-center">
-    @foreach (FitnessDiets.Data.Food entity in Model)
-    {
-        <div class="block-food">
-            @entity.FoodName
-            <a asp-controller="Home" asp-action="FoodEdit" asp-route-id="@entity.Id">редактировать</a>
-
-            <form method="post" asp-controller="Home" asp-action="FoodsDelete">
-                <input type="hidden" name="Id" value="@entity.Id" />
-                <input type="submit" value="удалить" />
-            </form>
+<section>
+    <div class="title title-food">
+        <a asp-controller="Home" asp-action="FoodEdit">Добавить блюдо или продукт</a>
+    </div>
+    <div class="text-center">
+        <div class="info-value">
+            <p>Название еды</p>
+            <p>Количество съеденных</p>
+            <p>Каллорийность</p>
         </div>
-    }
-</div>
+        @foreach (FitnessDiets.Models.Food entity in Model)
+        {
+            
+            <div class="block-value">
+                <div class="w-65 d-flex justify-content-between">
+                    <div class="text-value">@entity.FoodName</div>
+                    <div class="text-value">@entity.Eatenfood</div>
+                    <div class="text-value">@entity.Calories</div>
+                </div>
+                <div class="block-edit">
+                    <div class="d-flex justify-content-end">
+                        <div>
+                            <a asp-controller="Home" asp-action="FoodEdit" asp-route-id="@entity.Id">Редактировать</a>
+                        </div>
+                        <div>
+                            <form method="post" asp-controller="Home" asp-action="FoodsDelete">
+                                <input type="hidden" name="Id" value="@entity.Id" />
+                                <input type="submit" class="btn btn-delete" value="Удалить" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        }
+    </div>
+</section>
+

@@ -1,6 +1,4 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
+﻿
 a.navbar-brand {
   white-space: normal;
   text-align: center;
@@ -70,9 +68,62 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
-/* */ 
+/* */
 
-.title{
+.title-food {
+    font-size: 2.3rem;
+    color: #13505B;
+}
+.title-food a{
+    color: black;
+}
 
+
+.info-value{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 65%;
+    margin-top: 20px;
+}
+.info-value > p{
+    display: block;
+    font-size: 1.23rem;
+}
+
+
+.block-value {
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.w-65{
+    width: 65%;
+}
+.block-edit {
+    display: flex;
+}
+
+.block-edit a{
+    color: black; 
+}
+
+.btn-delete{
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    width: 120px;
+    margin-left: 10px;
+    position: relative;
+    top: -7px;
+}
+
+.btn-delete:hover {
+    background: #13505B;
+    border: 2px solid #13505B;
+    color: #D7D9CE;
 }
 

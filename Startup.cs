@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using FitnessDiets.Data;
+using FitnessDiets.Models;
+using FitnessDiets.Repository;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -22,7 +24,8 @@ namespace FitnessDiets
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<FoodsRepository>();
-            
+            services.AddTransient<ListFoodRepository>();
+
 
             /*Рефакторинг, подключение указано в appsettings.json
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(

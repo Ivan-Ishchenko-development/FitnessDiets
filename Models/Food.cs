@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FitnessDiets.Data
+namespace FitnessDiets.Models
 {
     public class Food
     {
@@ -16,7 +16,11 @@ namespace FitnessDiets.Data
         public string FoodName { get; set; }
 
         [Required]
-        [Display(Name = "Количество сьеденной пищи(г)")]
-        public int Eatenfood { get; set; }
+        [Display(Name = "Количество съеденной пищи(г)")]
+        public int Eatenfood { get; set; } = 0;
+
+        [Required]
+        [Display(Name = "Калории продукта")]
+        public int Calories { get; set; }
     }
 }

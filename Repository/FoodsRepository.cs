@@ -3,8 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FitnessDiets.Data;
+using FitnessDiets.Models;
 
-namespace FitnessDiets.Data
+namespace FitnessDiets.Repository
 {
     public class FoodsRepository
     {
@@ -45,5 +47,6 @@ namespace FitnessDiets.Data
             context.Foods.Remove(entity);
             context.SaveChanges();
         }
+
     }
 }

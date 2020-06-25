@@ -1,4 +1,4 @@
-﻿@model FitnessDiets.Data.Food
+﻿@model FitnessDiets.Models.Food
 
 
 <div>
@@ -15,10 +15,13 @@
             </div>
             <div>
                 <label asp-for="Eatenfood"></label>
-                <input type="text" asp-for="Eatenfood"/>
+                <input type="text" asp-for="Eatenfood" />
                 <span asp-validation-for="Eatenfood"></span>
             </div>
             <input type="submit" value="Сохранить" />
+
+            <input type="hidden" asp-for="Calories" />
+            <span asp-validation-for="Calories"></span>
         </form>
     </div>
 </div>
